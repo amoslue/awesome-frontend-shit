@@ -1,5 +1,3 @@
-import React from 'react'
-
 function FeedbackStates({feedback}) {
     let average = feedback.reduce((acc, curr) => acc + curr.rating, 0) / feedback.length;
 
